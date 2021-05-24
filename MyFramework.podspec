@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary = 'iOS view for displaying advertisment'
   s.homepage = 'https://github.com/alexeybolv/AdView'
   s.authors = { 'Alexey Bolvonovich' => 'alexeybolv@gmail.com' }
-  s.source = { :http => "https://www.dropbox.com/s/dl/aq0b518tj79j4ee/MyFramework.xcframework.zip", :type => "zip"}
+  s.source = { :git => "https://github.com/alexeybolv/MyFrameworkDistribution.git", :tag => "#{s.version}" }
   s.ios.deployment_target = '14.5'
   s.swift_version = '5.4'
 
